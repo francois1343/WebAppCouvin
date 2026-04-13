@@ -1,0 +1,41 @@
+
+
+body {
+    background-color: rgb(110, 226, 168);
+    color: red;
+    font-family: "Bitcount Grid Double", system-ui;
+}
+
+
+
+h2,strong {
+    color: green;
+    font-family: "Roboto", sans-serif;
+}
+
+/* ligne séparatrice */ 
+
+hr {
+    color: rgb(201, 255, 53); 
+    padding: 5px;
+}
+
+/* classe signature */ 
+
+.signature {
+    font-family: "Bitcount Grid Double", system-ui;
+    text-align: right;
+}
+
+/* section */ 
+
+.quefaitil {
+
+    background-color: rgb(220, 150, 99);
+    padding: 0 10px 5px 10px;
+}
+
+.hidden {
+    display: none; 
+}
+
