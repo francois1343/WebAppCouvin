@@ -24,33 +24,49 @@
     </header>
     <main>
         <hr>
-        <h2> Contactez-Nous!</h2>
-        <div class="colonnes">
-            <div class="colonne"> Formulaire</div>
-            <h3> Par e-mail</h3>
-            <form>
-                <label for="lastname">Nom:</label>
-                <input type="text" id="lastname" required>*
-                <label for="firstname">Prénom:</label>
-                <input type="text" id="firstname">
-                <label for="e-mail">Email:</label>
-                <input type="text" required id="email">*
-                <label for="lastname">Profil:</label>
-                <select name=" " id="profil">
-                    <option value="DE">Demandeur d'emploi</option>
-                    <option value="TRAV">Travailleur</option>
-                </select>
-                <label for=" message"> Message:</label>
-                <textarea name="" id="message"></textarea>*
-                <button> Envoyer </button>
-            </form>
-            <div class="colonne"> <iframe width="425" height="350"
-                    src="https://www.openstreetmap.org/export/embed.html?bbox=4.487845301628114%2C50.054800187585464%2C4.49492633342743%2C50.05789302393024&amp;layer=mapnik"
-                    style="border: 1px solid black"></iframe><br /><small><a
-                        href="https://www.openstreetmap.org/?#map=18/50.056347/4.491386">View Larger Map</a></small>
+        <section>
+            <h2> Contactez-Nous!</h2>
+            <div class="colonnes">
+                <div class="colonne"> Formulaire
+                    <h3> Par e-mail</h3>
+                    <form>
+                        <div class="control">
+                            <label for="lastname">Nom:</label>
+                            <input type="text" id="lastname" required>*
+                        </div>
+                        <div class="control">
+                            <label for="firstname">Prénom:</label>
+                            <input type="text" id="firstname">
+                        </div>
+                        <div class="control">
+                            <label for="e-mail">Email:</label>
+                            <input type="text" required id="email" placeholder="user@site.com" />*
+                        </div>
+                        <div class="control">
+                            <label for="lastname">Profil:</label>
+                            <select name=" " id="profil">
+                                <option value="DE">Demandeur d'emploi</option>
+                                <option value="TRAV">Travailleur</option>
+                            </select>
+                        </div>
+                        <div class="control">
+                            <label for=" message"> Message:</label>
+                            <textarea name="" id="message"></textarea>*
+                        </div>
+                        <div class="control">
+                            <button> Envoyer </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="colonne"> <iframe width="425" height="350"
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=4.487845301628114%2C50.054800187585464%2C4.49492633342743%2C50.05789302393024&amp;layer=mapnik"
+                        style="border: 1px solid black"></iframe><br /><small><a
+                            href="https://www.openstreetmap.org/?#map=18/50.056347/4.491386">View Larger Map</a></small>
+                </div>
             </div>
-        </div>
+        </section>
     </main>
 </body>
 
 </html>
+
