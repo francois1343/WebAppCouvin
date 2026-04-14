@@ -28,11 +28,21 @@
         <div class="colonnes">
             <div class="colonne"> Formulaire</div>
             <h3> Par e-mail</h3>
-            <form> 
+            <form>
                 <label for="lastname">Nom:</label>
-                <input type="text" id= "lastname" required>*
+                <input type="text" id="lastname" required>*
                 <label for="firstname">Prénom:</label>
-                <input type="text" id="firstname"> 
+                <input type="text" id="firstname">
+                <label for="e-mail">Email:</label>
+                <input type="text" required id="email">*
+                <label for="lastname">Profil:</label>
+                <select name=" " id="profil">
+                    <option value="DE">Demandeur d'emploi</option>
+                    <option value="TRAV">Travailleur</option>
+                </select>
+                <label for=" message"> Message:</label>
+                <textarea name="" id="message"></textarea>*
+                <button> Envoyer </button>
             </form>
             <div class="colonne"> <iframe width="425" height="350"
                     src="https://www.openstreetmap.org/export/embed.html?bbox=4.487845301628114%2C50.054800187585464%2C4.49492633342743%2C50.05789302393024&amp;layer=mapnik"
