@@ -3,14 +3,14 @@
 body {
     background-color: rgb(110, 226, 168);
     color: red;
-    font-family: "Bitcount Grid Double", system-ui;
+    font-family: "Montserrat", sans-serif;
 }
 
 
 
 h2,strong {
     color: green;
-    font-family: "Roboto", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 /* ligne séparatrice */ 
